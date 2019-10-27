@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+
+/* 
+font #edf5e1 
+blue #05386b 
+back: #5cdb95 */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #5cdb95;
+}
+
+header>h1 {
+  background: #05386b;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 100px;
+  color: #edf5e1;
+}
+
+.score-board {
+  position: relative;
+  margin: 20px auto;
+  border: 3px solid #05386b;
+  border-radius: 4px;
+  text-align: center;
+  width: 250px;
+  height: 200px;
+  padding: 15px 20px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 40px;
+  color: #edf5e1;
+}
+
+.badge,
+.result_p {
+  background: #05386b;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 50px;
+  color: #edf5e1;
+  text-align: center;
+  
+}
+
+
+
+#user-label {
+  position: absolute;
+  top: 67px;
+  left: -70px;
+}
+
+#computer-label {
+  position: absolute;
+  top: 67px;
+  right: -45px;
+}
+
+.choices {
+  margin: 100px 250px;
+  text-align: center;
+}
+
+.choice {
+  display: inline-block;
+  /* from parent choices */
+  border: 7px solid #05386b;
+  border-radius: 50%;
+  padding: 70px;
+}
+
+.choice:hover {
+  cursor: pointer;
+  background: #4dbd7f;
+}
+
+.green-glow {
+  border: 4px solid #007a17;
+  box-shadow: 0 0 10px #00ac1d;
+}
+
+.red-glow {
+  border: 4px solid #fc121b;
+  box-shadow: 0 0 10px #d01115;
+}
+
+.grey-glow {
+  border: 4px solid #465647;
+  box-shadow: 0 0 10px #25292b;
+}
